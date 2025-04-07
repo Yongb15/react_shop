@@ -17,10 +17,10 @@ function App() {
             </Nav>
           </Container>
         </Navbar>
-
-        {/* 여기 아래로 너 원하는 콘텐츠 추가하면 돼 */}
         <div style={{ padding: '2rem' }}>
-          <h2>메인 콘텐츠 영역</h2>
+          <div className="main-bg-alt">
+            <img src="../img/짱구1.webp" alt="모델" className="main-img" />
+          </div>
         </div>
       </div>
     </div>
